@@ -122,7 +122,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    /*color: rgba(255,255,255,.8);*/
     background-color: transparent;
 }
 
@@ -175,6 +175,10 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.fa-bars{
+    color: #000;
 }
 
 .intro .intro-body {
