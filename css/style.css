@@ -59,11 +59,6 @@ a:hover{
     font-size: 20pt;
     padding: 10px;
 }
-@media screen and (max-width: 480px) {
-    .music-list > li {
-        font-size: 17pt;
-    }
-}
 .music-list > li > a{
     color: #000;
 }   
