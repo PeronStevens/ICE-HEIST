@@ -1,4 +1,8 @@
 $(function(){
+
+    
+    $(".home").fadeIn(2000);
+
     $(".about").click(function(e) {
         e.preventDefault();
         $('html, body').animate({
