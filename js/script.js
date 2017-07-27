@@ -1,7 +1,7 @@
 $(function(){
 
     
-    $(".home").fadeIn(2000);
+    $(".home").fadeIn(3000);
 
     $(".about").click(function(e) {
         e.preventDefault();
