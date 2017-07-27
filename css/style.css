@@ -98,3 +98,11 @@ a:hover{
     font-family: 'Permanent Marker', cursive;
     font-size: 20pt;
 }
+.back-to-top{
+    height: 50px;
+    background-color: #000;
+    padding: 10px;
+}
+.back-to-top-link{
+    color: #fff;
+}
