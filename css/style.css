@@ -24,17 +24,16 @@ a:hover{
     text-align: center;
 }
 .list > li {
-    font-family: 'Itim', cursive;
+    font-family: 'Barrio', cursive;
     padding: 20px;
     font-size: 30pt;
-    background: #fff;
 }
 .list > li > a {
     background: #fff;
 }
 .list > li:hover{
     background-image: url("../img/fire.gif");
-    background-size: 80px 60px;
+    background-size: 80px 60px; 
 }
 .about{
     background: url(../img/kyriephotos-5.jpg) no-repeat center center scroll;
