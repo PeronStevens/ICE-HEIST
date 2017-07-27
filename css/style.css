@@ -83,10 +83,12 @@ a:hover{
 .music{
     background-image: url("http://media0.giphy.com/media/3o7TKoHNJTWWLgljYQ/giphy.gif");
 }
+.short-bio, .short-bio-2{
+    margin-top: 100px;
+}
 .short-bio{
     font-family: 'Slabo 13px', serif;
-    margin-top: 100px;
-    font-size: 30pt;
+    font-size: 24pt;
 
 }
 .short-bio-2{
