@@ -87,6 +87,11 @@ a:hover{
 .music{
     background-image: url("../img/shiver.gif");
 }
+@media screen and (min-height: 417px) {
+    .music{
+        height: 100vh;
+    }
+}
 .short-bio, .short-bio-2{
     margin-top: 100px;
 }
