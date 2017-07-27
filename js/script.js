@@ -4,13 +4,13 @@ $(function(){
     $(".home").fadeIn(3000);
 
     $(".about").click(function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('html, body').animate({
             scrollTop: $("#about").offset().top
         }, 1000);
     });
     $(".music").click(function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('html, body').animate({
             scrollTop: $("#music").offset().top
         }, 1000);
