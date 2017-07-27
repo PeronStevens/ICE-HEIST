@@ -55,9 +55,9 @@ a:hover{
     height: 100vh;
 }
 .music-list > li {
+    font-family: 'Barrio', cursive;
     font-size: 20pt;
     padding: 10px;
-    background: #fff;
 }
 @media screen and (max-width: 480px) {
     .music-list > li {
