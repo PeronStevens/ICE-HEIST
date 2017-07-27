@@ -42,7 +42,12 @@ a:hover{
     /* background-image: url(""); */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+     height: 100%; 
+}
+@media screen and (min-height: 417px) {
+    .about{
+        height: 100vh;
+    }
 }
 .about-title{
     padding: 20px;
