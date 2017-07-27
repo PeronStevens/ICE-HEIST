@@ -48,11 +48,6 @@ a:hover{
     background-repeat: no-repeat;
      height: 100%; 
 }
-@media screen and (max-width: 417px) {
-    .short-bio{
-        font-size: 40pt;
-    }
-}
 @media screen and (min-height: 417px) {
     .about{
         height: 100vh;
@@ -66,11 +61,12 @@ a:hover{
     margin: auto;
 }
 .music{
-    
     background-image: url("../img/shiver.gif");
 }
 @media screen and (min-height: 417px) {
-
+    .music{
+        height: 100vh;
+    }
 }
 .music-list > li {
     font-family: 'Barrio', cursive;
@@ -102,6 +98,12 @@ a:hover{
 .short-bio-2{
     font-family: 'Permanent Marker', cursive;
     font-size: 20pt;
+}
+@media screen and (min-width: 767px) {
+    .short-bio, .short-bio-2{
+        margin-top: 200px;
+        font-size: 40pt !important;
+    }
 }
 .back-to-top{
     height: 50px;
