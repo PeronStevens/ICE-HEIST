@@ -63,11 +63,11 @@ a:hover{
 .music{
     background-image: url("../img/shiver.gif");
 }
-@media screen and (min-height: 417px) {
+/* @media screen and (max-height: 300px) {
     .music{
         height: 100vh;
     }
-}
+} */
 .music-list > li {
     font-family: 'Barrio', cursive;
     font-size: 20pt;
