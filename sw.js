@@ -5,12 +5,12 @@ self.addEventListener('install', e => {
 
     return cache.addAll([
        '/',
-       '/index.html',
-       '/img/fire.gif',
-       '/img/kyriephotos-5.jpg',
-       '/img/shiver.gif',
-       '/img/snow.gif',
-       '/css/style.css'
+       'ICE-HEIST/index.html',
+       'ICE-HEIST/img/fire.gif',
+       'ICE-HEIST/img/kyriephotos-5.jpg',
+       'ICE-HEIST/img/shiver.gif',
+       'ICE-HEIST/img/snow.gif',
+       'ICE-HEIST/css/style.css'
      ]);
    })
  );
