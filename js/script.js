@@ -26,4 +26,5 @@ $(function(){
             }).catch( error => { console.log('Registration failed', error) } )
         }
     }
+    registerServiceWorker();
 })
