@@ -22,7 +22,7 @@ $(function(){
 
     function registerServiceWorker(){
         if ('serviceWorker' in navigator ){
-            navigator.serviceWorker.register('sw.js', { scope: '/' }).then(     () => { console.log('Service worker successfully registered'); 
+            navigator.serviceWorker.register('sw.js', { scope: '/ICE-HEIST/' }).then(     () => { console.log('Service worker successfully registered'); 
             }).catch( error => { console.log('Registration failed', error) } )
         }
     }
