@@ -6,11 +6,11 @@ self.addEventListener('install', e => {
     return cache.addAll([
        '/',
        '/index.html',
-       '/img/fire.gif',
-       '/img/kyriephotos-5.jpg',
-       '/img/shiver.gif',
-       '/img/snow.gif',
-       '/css/style.css'
+       'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/fire.gif',
+       'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/kyriephotos-5.jpg'
+    //    '/img/shiver.gif',
+    //    '/img/snow.gif',
+    //    '/css/style.css'
      ]);
    })
  );
