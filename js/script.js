@@ -18,5 +18,6 @@ $(function(){
         $('html, body').animate({
             scrollTop: $("#music").offset().top
         }, 1000);
-    });    
+    });
+    
 })

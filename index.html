@@ -5,6 +5,7 @@
         <meta name="" charset="utf-8" content="">
         <link rel="icon" type="image/gif" href="img/favicon.gif" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="manifest.json">
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
@@ -54,5 +55,14 @@
         <script src="bootstrap.min.js"></script>
         <script src="js/jquery-3.2.0.min.js"></script>
         <script src="js/script.js"></script>
+        <script>
+            function registerServiceWorker(){
+                if ('serviceWorker' in navigator ){
+                    navigator.serviceWorker.register('sw.js', { scope: '/' }).then(     () => { console.log('Service worker successfully registered'); 
+                    }).catch( error => { console.log('Registration failed', error) } )
+                }
+            }
+        </script>
+        
     </body>
 </html>
