@@ -5,8 +5,8 @@
   "short_name": "myPWA",
   "icons": [
     {
-      "src": "\/assets\/images\/touch\/android-chrome-192x192.png",
-      "sizes": "192x192",
+      "src": "apple-icon-150x150.png",
+      "sizes": "150x150",
       "type": "image\/png"
     }
   ],
