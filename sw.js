@@ -7,10 +7,9 @@ self.addEventListener('install', e => {
        '/',
        '/index.html',
        'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/fire.gif',
-       'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/kyriephotos-5.jpg'
-    //    '/img/shiver.gif',
-    //    '/img/snow.gif',
-    //    '/css/style.css'
+       'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/kyriephotos-5.jpg',
+       'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/shiver.gif',
+       'https://raw.githubusercontent.com/PeronStevens/ICE-HEIST/gh-pages/img/snow.gif'
      ]);
    })
  );
