@@ -40,7 +40,7 @@ a:hover{
 }
 .list > li > a {
     /* background: #fff; */
-     /* background: #fff;    */
+     background: #fff;    
      color: #000;  
 }
 .list > li:hover{
